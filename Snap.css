@@ -11,10 +11,11 @@ html {
     text-decoration: none;
     color: #333;
   }
+  
   .navbar {
     background-color: white;
-    border-bottom: 0.0625rem solid #ddd; /* 1px تبدیل به rem */
-    height: 6rem; /* 60px به rem */
+    border-bottom: 0.0625rem solid #ddd;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,12 +54,12 @@ html {
     }
   }
   .navbar .logo img {
-    height: 3.1rem; /* 40px به rem */
+    height: 3.1rem;
   }
 
 
   .navbar .nav-links {
-    margin-right: 1rem; /* فاصله‌ی 1rem از تصویر لوگو */
+    margin-right: 1rem;
     margin-bottom: 1rem;
   }
   
@@ -118,16 +119,15 @@ html {
   .navbar .nav-links li a {
     text-decoration: none;
     color: #333;
-    font-size: 0.875rem; /* 14px به rem */
-    padding: 0.625rem; /* 10px به rem */
+    font-size: 0.875rem;
+    padding: 0.625rem;
     transition: color 0.3s;
   }
   
   .navbar .nav-links li a:hover {
-    color: #00a859; /* تغییر رنگ به سبز هنگام هاور */
+    color: #00a859;
   }
   
-
   .dar {
     z-index: 10;
     position: absolute;
@@ -140,16 +140,15 @@ html {
     display: none;
     white-space: nowrap;
   }
+
   .nav-links > li:hover .dar{
     display: block;
-    /* color: #00a859; */
     color: #333;
     font-size:medium;
     font-weight: 100;
     padding: 1rem;
     line-height: 2.3;
   }
-
 
 .hero-section{
     display: flex;
@@ -166,7 +165,6 @@ html {
 }
 
 .hero-section__intro button {
-    /* border: none; */
     border-radius: .375rem;
     color: #21aa58;
     padding: 0 1rem;
@@ -208,7 +206,6 @@ html {
     }
 }
 
-
 .hero-section__tagline {
     font-size: 2.75rem;
     font-weight: bold;
@@ -245,10 +242,6 @@ html {
     height: 2.5rem;
     width: 100%;
 }
-
-/* ..hero-section__sendlink-input input::placeholder {
-    color: white;
-} */
 
 .sendlink-input__dot {
     width: .5rem;
@@ -356,6 +349,7 @@ html {
         display: block;
     }
 }
+
 .snapp-apps-items {
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
@@ -385,14 +379,10 @@ html {
     margin-right: .5rem;
 }
 
-
-
 .all-need {
-    /* display: flex; */
     gap: 1rem;
     min-height: 755px;
     position: relative;
-    /* padding-bottom: 21rem; */
 }
 
 @media (min-width: 992px){
@@ -404,7 +394,6 @@ html {
     background-image: url(./14.jpg);
     height: 70vh;
     width: 100%;
-    /* flex-basis: 55%; */
     background-position: center center;
     background-size: cover;
 }
@@ -415,7 +404,6 @@ html {
     }
 }
 .all-need__intro {
-    /* display: flex; */
     width: 100%;
     flex-basis: 45%;
     padding: 2rem;
@@ -438,7 +426,6 @@ html {
 
 @media (max-width: 992px) {
     .all-need__intro h2 {
-        /* text-align: center; */
         padding: 0 15%;
         justify-content: center;
     }
@@ -450,15 +437,10 @@ html {
 
 @media (max-width: 992px) {
     .all-need__intro p {
-        /* text-align: center; */
         padding: 0 15%;
         justify-content: center;
     }
 }
-
-
-
-
 
 .benif-items {
     display: grid;
@@ -486,6 +468,7 @@ html {
         display: inline;
     }
 }
+
 .benif-pic {
     background-color: #f2f5f8;
     display: flex;
@@ -505,30 +488,25 @@ html {
     margin-bottom: 3rem;
 }
 
-
-
 .slider {
     width: 100%;
-    max-width: 1050px; /* حداکثر عرض برای اسلایدر */
+    max-width: 1050px;
     overflow: hidden;
     margin: auto;
     position: relative;
 }
 
-/* استایل کانتینر تصاویر */
 .slider-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 300%;
 }
 
-/* استایل هر اسلاید */
 .slide {
     width: 100%;
     flex: 0 0 100%;
 }
 
-/* استایل تصاویر */
 .slide img {
     width: 50%;
     height: 70%;
@@ -537,7 +515,6 @@ html {
     background-size: cover;
 }
 
-/* استایل دکمه‌های پیمایش */
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -558,23 +535,12 @@ html {
 .next {
     right: 10px;
 }
-
-/* تنظیمات ریسپانسیو */
 @media (max-width: 600px) {
     .prev, .next {
         font-size: 18px;
         padding: 8px;
     }
 }
-
-
-
-
-
-
-
-
-
 .driver {
     background-color: #f2f5f8;
     padding: 3.5rem;
